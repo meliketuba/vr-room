@@ -352,6 +352,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: d55dfce9051a4df44a8989dcb6bbef40, type: 3}
       insertIndex: -1
       addedObject: {fileID: 7825376591233497985}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: d55dfce9051a4df44a8989dcb6bbef40, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: -575339086574193229}
   m_SourcePrefab: {fileID: 100100000, guid: d55dfce9051a4df44a8989dcb6bbef40, type: 3}
 --- !u!33 &5775011649924558199 stripped
 MeshFilter:
@@ -439,3 +442,19 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.048514877, y: 0.045908637, z: 0.042742737}
   m_Center: {x: 0.0022237077, y: 0.027587747, z: 0.0028486867}
+--- !u!114 &-575339086574193229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6796970613012517944}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59c1acf15e0ad354a81cadadb1fa234d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GrabSceneTransition
+  sceneToLoad: VR World
+  transitionDelay: 0.5
+  fadeTransition: 1
+  fadeTime: 1
